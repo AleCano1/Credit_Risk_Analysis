@@ -6,29 +6,31 @@ The purpose of this project is to build and evaluate machine learning models to 
 ## Results 
 
 *Random Over Sampler
-![bsc_RandomOverSampler](bsc_RandomOverSampler.png)
-![recall_RandomOverSampler](recall_RandomOverSampler.png)
+
+![bsc_RandomOverSampler](Images/bsc_RandomOverSampler.png)
+![recall_RandomOverSampler](Images/recall_RandomOverSampler.png)
 
 In this case, we use the Random Over Sampler to oversample the smaller class of data, first, we observe the accuracy score, which is 62%, is a low score, then we observe the precision is low for the high risk and high for the low risk, recall is similar in both classes with 62% high risk and 63% low risk.
 
 
 *SMOTE
-![bsc_SMOTE](bsc_SMOTE.png)
-![recall_SMOTE](recall_SMOTE.png)
+
+![bsc_SMOTE](Images/bsc_SMOTE.png)
+![recall_SMOTE](Images/recall_SMOTE.png)
 
 In this case, also use the oversampling strategy, for the SMOTE model, the balanced accuracy score is 62% is low, and the precision is also low in high risk and high in low risk, recall is 60% in high risk and 65% in low risk.
 
 *Cluster Centroids 
 
-![bsc_ClusterCentroids](Images/bsc_ ClusterCentroids.png)
-![recall_ClusterCentroids](Images/recall_ClusterCentroids.png)
+![bsc_ClusterCentroids](Images/Images//bsc_ClusterCentroids.png)
+![recall_ClusterCentroids](Images(Images/recall_ClusterCentroids.png)
 
 This model is an undersampling strategy that makes smaller the bigger data. First, we observe the balanced accuracy score, which is low at 50%, then we observe the precision is low the high risk and is high the low risk, the recall is also low, with 59% high risk and 42% low risk.
 
 *SMOTEEN
 
-![bsc_SMOTEEN](Images/bsc_SMOTEEN.png)
-![recall_SMOTEEN](Images/recall_SMOTEEN.png)
+![bsc_SMOTEEN](Images/Images/bsc_SMOTEEN.png)
+![recall_SMOTEEN](Images/Images/recall_SMOTEEN.png)
 
 In this case, we combine over and under-sampling to determine the model, we observe the balanced accuracy score is 64%, and the precision is also low the high risk and high the low risk. The recall is a little bit higher than the high risk with 72%, and the low risk continues low at 57%.
 
