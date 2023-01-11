@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 ## Overview of Project 
 ### Purpose
-The purpose of this project is to build and evaluate machine learning models to predict credit risk, implement different algorithms and analyze the performance of each one and decide which one is better to predict the credit risk. We use six different models: Cluster Centroids, SMOTEEN, Balanced Random Forest Classifier, Easy Ensemble Classifier, Random Over Sampler, and SMOTE.
+The purpose of this project is to build and evaluate SUPERVISED machine learning models to predict credit risk, implement different algorithms and analyze the performance of each one and decide which one is better to predict the credit risk. We use six different models: Cluster Centroids, SMOTEEN, Balanced Random Forest Classifier, Easy Ensemble Classifier, Random Over Sampler, and SMOTE.
 
 ## Results 
 
