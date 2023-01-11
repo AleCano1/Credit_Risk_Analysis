@@ -23,7 +23,7 @@ In this case, also use the oversampling strategy, for the SMOTE model, the balan
 *Cluster Centroids 
 
 ![bsc_ClusterCentroids](Images/Images//bsc_ClusterCentroids.png)
-![recall_ClusterCentroids](Images(Images/recall_ClusterCentroids.png)
+![recall_ClusterCentroids](Images/Images/recall_ClusterCentroids.png)
 
 This model is an undersampling strategy that makes smaller the bigger data. First, we observe the balanced accuracy score, which is low at 50%, then we observe the precision is low the high risk and is high the low risk, the recall is also low, with 59% high risk and 42% low risk.
 
